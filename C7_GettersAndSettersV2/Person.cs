@@ -2,12 +2,23 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace C6_GettersAndSetters
+namespace C7_GettersAndSettersV2
 {
     class Person
     {
-        public string Name { get; private set; } = "" //standardvärde tom
-        public int Age => CalculateAge(); //tar bort set, behåller get.
+        public string Name { get; private set; } = ""; //standardvärde tom
+        public int Age
+        {
+            get 
+            {
+                int _age = DateTime.Now.Year - DateOfBirth.Year;
+                if (DateTime.Now.DayOfYear < DateOfBirth.DayOfYear)
+                    _age = _age - 1;
+
+                return _age;
+            }
+        }
+        //public int Age => CalculateAge(); //tar bort set, behåller get.
         public string City { get; private set; }
         public DateTime DateOfBirth { get; private set; }
 
@@ -52,13 +63,6 @@ namespace C6_GettersAndSetters
             Console.WriteLine($"Cool, we are the same Age. I am also {Age}");
         }
 
-        private int CalculateAge()
-        {
-            int _age = DateTime.Now.Year - DateOfBirth.Year;
-            if (DateTime.Now.DayOfYear < DateOfBirth.DayOfYear)
-                _age = _age - 1;
 
-            return _age;
-        }
     }
 }

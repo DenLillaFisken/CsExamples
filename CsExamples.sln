@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C5_WithAgeCalculation", "C5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_GettersAndSetters", "C6_GettersAndSetters\C6_GettersAndSetters.csproj", "{0613AADC-B885-4494-BDBC-F6D4A2E62A11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{63ADA921-E56B-4697-BEC8-3467D2138DE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0613AADC-B885-4494-BDBC-F6D4A2E62A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0613AADC-B885-4494-BDBC-F6D4A2E62A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0613AADC-B885-4494-BDBC-F6D4A2E62A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
