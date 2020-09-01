@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_GettersAndSetters", "C6_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{63ADA921-E56B-4697-BEC8-3467D2138DE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{06975578-F6E2-4388-8A58-5C21B27DDB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C9_Lists", "C9_Lists\C9_Lists.csproj", "{9FC9EF78-DC28-40DD-848C-D69AD8A37156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63ADA921-E56B-4697-BEC8-3467D2138DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06975578-F6E2-4388-8A58-5C21B27DDB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06975578-F6E2-4388-8A58-5C21B27DDB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06975578-F6E2-4388-8A58-5C21B27DDB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06975578-F6E2-4388-8A58-5C21B27DDB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
