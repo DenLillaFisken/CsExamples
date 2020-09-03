@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1_WriteLine", "C1_WriteLine\C1_WriteLine.csproj", "{7C397293-E959-4171-8FF1-5430A35A2F59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1_WriteLine", "C1_WriteLine\C1_WriteLine.csproj", "{7C397293-E959-4171-8FF1-5430A35A2F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C2_ReadLine", "C2_ReadLine\C2_ReadLine.csproj", "{235C5F66-7539-402B-A4F2-73DE1562EC6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C2_ReadLine", "C2_ReadLine\C2_ReadLine.csproj", "{235C5F66-7539-402B-A4F2-73DE1562EC6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3_WithAClass", "C3_WithAClass\C3_WithAClass.csproj", "{8FF4CB13-8147-4D92-AA32-ADA3F6067975}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C3_WithAClass", "C3_WithAClass\C3_WithAClass.csproj", "{8FF4CB13-8147-4D92-AA32-ADA3F6067975}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4_WithMethods", "C4_WithMethods\C4_WithMethods.csproj", "{B1E40728-B621-4ECE-B1D0-9950074217C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4_WithMethods", "C4_WithMethods\C4_WithMethods.csproj", "{B1E40728-B621-4ECE-B1D0-9950074217C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C5_WithAgeCalculation", "C5_WithAgeCalculation\C5_WithAgeCalculation.csproj", "{339F1CD3-AC59-4A5E-96CF-9BAC17F76411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C5_WithAgeCalculation", "C5_WithAgeCalculation\C5_WithAgeCalculation.csproj", "{339F1CD3-AC59-4A5E-96CF-9BAC17F76411}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C6_GettersAndSetters", "C6_GettersAndSetters\C6_GettersAndSetters.csproj", "{0613AADC-B885-4494-BDBC-F6D4A2E62A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C6_GettersAndSetters", "C6_GettersAndSetters\C6_GettersAndSetters.csproj", "{0613AADC-B885-4494-BDBC-F6D4A2E62A11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{63ADA921-E56B-4697-BEC8-3467D2138DE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C7_GettersAndSettersV2", "C7_GettersAndSettersV2\C7_GettersAndSettersV2.csproj", "{63ADA921-E56B-4697-BEC8-3467D2138DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{06975578-F6E2-4388-8A58-5C21B27DDB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C8_Arrays", "C8_Arrays\C8_Arrays.csproj", "{06975578-F6E2-4388-8A58-5C21B27DDB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C9_Lists", "C9_Lists\C9_Lists.csproj", "{9FC9EF78-DC28-40DD-848C-D69AD8A37156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C9_Lists", "C9_Lists\C9_Lists.csproj", "{9FC9EF78-DC28-40DD-848C-D69AD8A37156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C10_Struct", "C10_Struct\C10_Struct.csproj", "{EEF5A061-8BDA-4D4A-BE1F-3F4A15483D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C11_Enum", "C11_Enum\C11_Enum.csproj", "{9165D456-DC69-4734-8321-B993E2B0C95E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FC9EF78-DC28-40DD-848C-D69AD8A37156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF5A061-8BDA-4D4A-BE1F-3F4A15483D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF5A061-8BDA-4D4A-BE1F-3F4A15483D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF5A061-8BDA-4D4A-BE1F-3F4A15483D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF5A061-8BDA-4D4A-BE1F-3F4A15483D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9165D456-DC69-4734-8321-B993E2B0C95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9165D456-DC69-4734-8321-B993E2B0C95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9165D456-DC69-4734-8321-B993E2B0C95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9165D456-DC69-4734-8321-B993E2B0C95E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
