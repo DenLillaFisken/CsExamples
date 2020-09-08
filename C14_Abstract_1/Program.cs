@@ -9,10 +9,12 @@ namespace C14_Abstract_1
         static void Main(string[] args)
         {
 
-            var classlist = new List<Person>(){
-                new Teacher { Firstname = "Hans", LastName = "Johansson", Role = "Teacher" };
-                new Student { FirstName = "Anna", LastName = "Bengtsson" };
-                new Student { FirstName = "Johan", LastName = "Björk" };
+            var classlist = new List<Person>()
+            {
+                new Teacher { FirstName = "Hans", LastName = "Johansson", Role = "Teacher" },
+                new Teacher { FirstName = "Johans", LastName = "Johansson", Role = "Teacher" },
+                new Student { FirstName = "Anna", LastName = "Bengtsson" },
+                new Student { FirstName = "Johan", LastName = "Björk" }
             };
 
             foreach(var person in classlist)
