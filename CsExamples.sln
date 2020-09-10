@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF1_ContactList", "WPF1_Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF2_Design", "WPF2_Design\WPF2_Design.csproj", "{A3296863-9653-419A-8FB4-6359A801C0EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF3_CustomControl", "WPF3_CustomControl\WPF3_CustomControl.csproj", "{C874F24B-729C-41FC-8731-8E4BCDEBE23F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,26 @@ Global
 		{A3296863-9653-419A-8FB4-6359A801C0EC}.Release|x64.Build.0 = Release|Any CPU
 		{A3296863-9653-419A-8FB4-6359A801C0EC}.Release|x86.ActiveCfg = Release|Any CPU
 		{A3296863-9653-419A-8FB4-6359A801C0EC}.Release|x86.Build.0 = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|x64.Build.0 = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Debug|x86.Build.0 = Debug|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|ARM.Build.0 = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|ARM64.Build.0 = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|x64.ActiveCfg = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|x64.Build.0 = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|x86.ActiveCfg = Release|Any CPU
+		{C874F24B-729C-41FC-8731-8E4BCDEBE23F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
